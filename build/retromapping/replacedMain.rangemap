@@ -1,0 +1,172 @@
+Symbol range map extraction starting
+Processing 1 files
+startProcessing "lime/BigBrother.java" md5: 17c0c1a8f02324975c2ddc60c8f8f401
+Cache Hit!
+@|lime/BigBrother.java|8|12|lime|package|lime|(file)
+Class Start: lime.BigBrother
+   @|lime/BigBrother.java|792|795|Mod|class|net.minecraftforge.fml.common.Mod
+   @|lime/BigBrother.java|796|801|modid|method|net.minecraftforge.fml.common.Mod|modid|()Ljava/lang/String;
+   @|lime/BigBrother.java|804|814|BigBrother|class|lime.BigBrother
+   @|lime/BigBrother.java|815|820|MODID|field|lime.BigBrother|MODID
+   @|lime/BigBrother.java|822|826|name|method|net.minecraftforge.fml.common.Mod|name|()Ljava/lang/String;
+   @|lime/BigBrother.java|829|839|BigBrother|class|lime.BigBrother
+   @|lime/BigBrother.java|840|844|NAME|field|lime.BigBrother|NAME
+   @|lime/BigBrother.java|846|853|version|method|net.minecraftforge.fml.common.Mod|version|()Ljava/lang/String;
+   @|lime/BigBrother.java|856|866|BigBrother|class|lime.BigBrother
+   @|lime/BigBrother.java|867|874|VERSION|field|lime.BigBrother|VERSION
+   @|lime/BigBrother.java|877|899|Mod.EventBusSubscriber|class|net.minecraftforge.fml.common.Mod.EventBusSubscriber
+   @|lime/BigBrother.java|913|923|BigBrother|class|lime.BigBrother
+   @|lime/BigBrother.java|950|956|String|class|java.lang.String
+   @|lime/BigBrother.java|950|956|String|class|java.lang.String
+   @|lime/BigBrother.java|957|962|MODID|field|lime.BigBrother|MODID|
+   @|lime/BigBrother.java|1004|1010|String|class|java.lang.String
+   @|lime/BigBrother.java|1004|1010|String|class|java.lang.String
+   @|lime/BigBrother.java|1011|1015|NAME|field|lime.BigBrother|NAME|
+   @|lime/BigBrother.java|1057|1063|String|class|java.lang.String
+   @|lime/BigBrother.java|1057|1063|String|class|java.lang.String
+   @|lime/BigBrother.java|1064|1071|VERSION|field|lime.BigBrother|VERSION|
+   @|lime/BigBrother.java|1099|1103|Path|class|java.nio.file.Path
+   @|lime/BigBrother.java|1099|1103|Path|class|java.nio.file.Path
+   @|lime/BigBrother.java|1104|1128|big_brothers_little_book|field|lime.BigBrother|big_brothers_little_book|
+   Method Start: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|lime/BigBrother.java|1203|1208|event|param|lime.BigBrother|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|lime/BigBrother.java|1136|1152|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|lime/BigBrother.java|1169|1176|preInit|method|lime.BigBrother|preInit|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|lime/BigBrother.java|1177|1202|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|lime/BigBrother.java|1224|1248|big_brothers_little_book|field|lime.BigBrother|big_brothers_little_book
+      @|lime/BigBrother.java|1251|1256|Paths|class|java.nio.file.Paths
+      @|lime/BigBrother.java|1257|1260|get|method|java.nio.file.Paths|get|(Ljava/lang/String;[Ljava/lang/String;)Ljava/nio/file/Path;
+      @|lime/BigBrother.java|1268|1273|MODID|field|lime.BigBrother|MODID
+      @|lime/BigBrother.java|1275|1287|getTimestamp|method|lime.BigBrother|getTimestamp|()Ljava/lang/String;
+      @|lime/BigBrother.java|1325|1330|Files|class|java.nio.file.Files
+      @|lime/BigBrother.java|1331|1348|createDirectories|method|java.nio.file.Files|createDirectories|(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;
+      @|lime/BigBrother.java|1349|1373|big_brothers_little_book|field|lime.BigBrother|big_brothers_little_book
+      @|lime/BigBrother.java|1374|1383|getParent|method|java.nio.file.Path|getParent|()Ljava/nio/file/Path;
+      @|lime/BigBrother.java|1400|1405|Files|class|java.nio.file.Files
+      @|lime/BigBrother.java|1406|1416|createFile|method|java.nio.file.Files|createFile|(Ljava/nio/file/Path;[Ljava/nio/file/attribute/FileAttribute;)Ljava/nio/file/Path;
+      @|lime/BigBrother.java|1417|1441|big_brothers_little_book|field|lime.BigBrother|big_brothers_little_book
+      @|lime/BigBrother.java|1461|1472|IOException|class|java.io.IOException
+      @|lime/BigBrother.java|1492|1507|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|lime/BigBrother.java|1594|1599|event|param|lime.BigBrother|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|lime/BigBrother.java|1533|1549|Mod.EventHandler|class|net.minecraftforge.fml.common.Mod.EventHandler
+      @|lime/BigBrother.java|1566|1570|init|method|lime.BigBrother|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|lime/BigBrother.java|1571|1593|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+   Method Start: onChunkEnter(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V
+      @|lime/BigBrother.java|1696|1701|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|1619|1633|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|lime/BigBrother.java|1657|1669|onChunkEnter|method|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V
+      @|lime/BigBrother.java|1670|1695|EntityEvent.EnteringChunk|class|net.minecraftforge.event.entity.EntityEvent.EnteringChunk
+      @|lime/BigBrother.java|1721|1726|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|1727|1736|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|lime/BigBrother.java|1750|1762|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|lime/BigBrother.java|1767|1772|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|1773|1782|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|lime/BigBrother.java|1785|1799|getEntityWorld|method|net.minecraft.command.ICommandSender|getEntityWorld|()Lnet/minecraft/world/World;
+      @|lime/BigBrother.java|1802|1810|isRemote|field|net.minecraft.world.World|isRemote
+      @|lime/BigBrother.java|1826|1833|observe|method|lime.BigBrother|observe|(Ljava/lang/String;)V
+      @|lime/BigBrother.java|1834|1846|getTimestamp|method|lime.BigBrother|getTimestamp|()Ljava/lang/String;
+      @|lime/BigBrother.java|1875|1887|EntityPlayer|class|net.minecraft.entity.player.EntityPlayer
+      @|lime/BigBrother.java|1889|1894|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|1895|1904|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|lime/BigBrother.java|1908|1928|getDisplayNameString|method|net.minecraft.entity.player.EntityPlayer|getDisplayNameString|()Ljava/lang/String;
+      @|lime/BigBrother.java|1985|1990|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|1991|2003|getNewChunkX|method|net.minecraftforge.event.entity.EntityEvent.EnteringChunk|getNewChunkX|()I
+      @|lime/BigBrother.java|2010|2015|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|2016|2028|getNewChunkZ|method|net.minecraftforge.event.entity.EntityEvent.EnteringChunk|getNewChunkZ|()I
+      @|lime/BigBrother.java|2081|2086|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|2087|2099|getOldChunkX|method|net.minecraftforge.event.entity.EntityEvent.EnteringChunk|getOldChunkX|()I
+      @|lime/BigBrother.java|2106|2111|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|2112|2124|getOldChunkZ|method|net.minecraftforge.event.entity.EntityEvent.EnteringChunk|getOldChunkZ|()I
+      @|lime/BigBrother.java|2169|2174|event|param|lime.BigBrother|onChunkEnter|(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V|event|0
+      @|lime/BigBrother.java|2175|2184|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|lime/BigBrother.java|2187|2196|dimension|field|net.minecraft.entity.Entity|dimension
+   Method End: onChunkEnter(Lnet/minecraftforge/event/entity/EntityEvent$EnteringChunk;)V
+   Method Start: onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
+      @|lime/BigBrother.java|2325|2330|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2234|2248|SubscribeEvent|class|net.minecraftforge.fml.common.eventhandler.SubscribeEvent
+      @|lime/BigBrother.java|2272|2288|onPlayerInteract|method|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
+      @|lime/BigBrother.java|2289|2324|PlayerInteractEvent.RightClickBlock|class|net.minecraftforge.event.entity.player.PlayerInteractEvent.RightClickBlock
+      @|lime/BigBrother.java|2350|2355|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2356|2363|getSide|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getSide|()Lnet/minecraftforge/fml/relauncher/Side;
+      @|lime/BigBrother.java|2366|2374|isServer|method|net.minecraftforge.fml.relauncher.Side|isServer|()Z
+      @|lime/BigBrother.java|2392|2397|Block|class|net.minecraft.block.Block
+      @|lime/BigBrother.java|2406|2411|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2412|2420|getWorld|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getWorld|()Lnet/minecraft/world/World;
+      @|lime/BigBrother.java|2423|2436|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|lime/BigBrother.java|2437|2442|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2443|2449|getPos|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
+      @|lime/BigBrother.java|2453|2461|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|lime/BigBrother.java|2477|2483|String|class|java.lang.String
+      @|lime/BigBrother.java|2490|2502|getTimestamp|method|lime.BigBrother|getTimestamp|()Ljava/lang/String;
+      @|lime/BigBrother.java|2529|2534|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2535|2550|getEntityPlayer|method|net.minecraftforge.event.entity.player.PlayerEvent|getEntityPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|lime/BigBrother.java|2553|2573|getDisplayNameString|method|net.minecraft.entity.player.EntityPlayer|getDisplayNameString|()Ljava/lang/String;
+      @|lime/BigBrother.java|2619|2624|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2625|2640|getEntityPlayer|method|net.minecraftforge.event.entity.player.PlayerEvent|getEntityPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|lime/BigBrother.java|2643|2654|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+      @|lime/BigBrother.java|2657|2661|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|lime/BigBrother.java|2685|2690|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2691|2706|getEntityPlayer|method|net.minecraftforge.event.entity.player.PlayerEvent|getEntityPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|lime/BigBrother.java|2709|2720|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+      @|lime/BigBrother.java|2723|2727|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|lime/BigBrother.java|2751|2756|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2757|2772|getEntityPlayer|method|net.minecraftforge.event.entity.player.PlayerEvent|getEntityPlayer|()Lnet/minecraft/entity/player/EntityPlayer;
+      @|lime/BigBrother.java|2775|2786|getPosition|method|net.minecraft.command.ICommandSender|getPosition|()Lnet/minecraft/util/math/BlockPos;
+      @|lime/BigBrother.java|2789|2793|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|lime/BigBrother.java|2838|2843|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2844|2853|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|lime/BigBrother.java|2856|2865|dimension|field|net.minecraft.entity.Entity|dimension
+      @|lime/BigBrother.java|2928|2944|getLocalizedName|method|net.minecraft.block.Block|getLocalizedName|()Ljava/lang/String;
+      @|lime/BigBrother.java|2990|2995|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|2996|3002|getPos|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
+      @|lime/BigBrother.java|3005|3009|getX|method|net.minecraft.util.math.Vec3i|getX|()I
+      @|lime/BigBrother.java|3016|3021|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|3022|3028|getPos|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
+      @|lime/BigBrother.java|3031|3035|getY|method|net.minecraft.util.math.Vec3i|getY|()I
+      @|lime/BigBrother.java|3042|3047|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|3048|3054|getPos|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getPos|()Lnet/minecraft/util/math/BlockPos;
+      @|lime/BigBrother.java|3057|3061|getZ|method|net.minecraft.util.math.Vec3i|getZ|()I
+      @|lime/BigBrother.java|3107|3112|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|3113|3122|getEntity|method|net.minecraftforge.event.entity.EntityEvent|getEntity|()Lnet/minecraft/entity/Entity;
+      @|lime/BigBrother.java|3125|3134|dimension|field|net.minecraft.entity.Entity|dimension
+      @|lime/BigBrother.java|3153|3158|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|3159|3171|getItemStack|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|lime/BigBrother.java|3177|3186|ItemStack|class|net.minecraft.item.ItemStack
+      @|lime/BigBrother.java|3187|3192|EMPTY|field|net.minecraft.item.ItemStack|EMPTY
+      @|lime/BigBrother.java|3232|3237|event|param|lime.BigBrother|onPlayerInteract|(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V|event|0
+      @|lime/BigBrother.java|3238|3250|getItemStack|method|net.minecraftforge.event.entity.player.PlayerInteractEvent|getItemStack|()Lnet/minecraft/item/ItemStack;
+      @|lime/BigBrother.java|3253|3267|getDisplayName|method|net.minecraft.item.ItemStack|getDisplayName|()Ljava/lang/String;
+      @|lime/BigBrother.java|3298|3305|observe|method|lime.BigBrother|observe|(Ljava/lang/String;)V
+   Method End: onPlayerInteract(Lnet/minecraftforge/event/entity/player/PlayerInteractEvent$RightClickBlock;)V
+   Method Start: getTimestamp()Ljava/lang/String;
+      @|lime/BigBrother.java|3348|3354|String|class|java.lang.String
+      @|lime/BigBrother.java|3355|3367|getTimestamp|method|lime.BigBrother|getTimestamp|()Ljava/lang/String;
+      @|lime/BigBrother.java|3386|3399|LocalDateTime|class|java.time.LocalDateTime
+      @|lime/BigBrother.java|3400|3403|now|method|java.time.LocalDateTime|now|()Ljava/time/LocalDateTime;
+      @|lime/BigBrother.java|3406|3412|format|method|java.time.chrono.ChronoLocalDateTime|format|(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+      @|lime/BigBrother.java|3413|3430|DateTimeFormatter|class|java.time.format.DateTimeFormatter
+      @|lime/BigBrother.java|3431|3440|ofPattern|method|java.time.format.DateTimeFormatter|ofPattern|(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;
+   Method End: getTimestamp()Ljava/lang/String;
+   Method Start: observe(Ljava/lang/String;)V
+      @|lime/BigBrother.java|3504|3510|string|param|lime.BigBrother|observe|(Ljava/lang/String;)V|string|0
+      @|lime/BigBrother.java|3489|3496|observe|method|lime.BigBrother|observe|(Ljava/lang/String;)V
+      @|lime/BigBrother.java|3497|3503|String|class|java.lang.String
+      @|lime/BigBrother.java|3539|3544|Files|class|java.nio.file.Files
+      @|lime/BigBrother.java|3545|3550|write|method|java.nio.file.Files|write|(Ljava/nio/file/Path;Ljava/lang/Iterable;Ljava/nio/charset/Charset;[Ljava/nio/file/OpenOption;)Ljava/nio/file/Path;
+      @|lime/BigBrother.java|3551|3575|big_brothers_little_book|field|lime.BigBrother|big_brothers_little_book
+      @|lime/BigBrother.java|3577|3588|Collections|class|java.util.Collections
+      @|lime/BigBrother.java|3589|3602|singletonList|method|java.util.Collections|singletonList|(Ljava/lang/Object;)Ljava/util/List;
+      @|lime/BigBrother.java|3603|3609|string|param|lime.BigBrother|observe|(Ljava/lang/String;)V|string|0
+      @|lime/BigBrother.java|3612|3619|Charset|class|java.nio.charset.Charset
+      @|lime/BigBrother.java|3620|3627|forName|method|java.nio.charset.Charset|forName|(Ljava/lang/String;)Ljava/nio/charset/Charset;
+      @|lime/BigBrother.java|3638|3656|StandardOpenOption|class|java.nio.file.StandardOpenOption
+      @|lime/BigBrother.java|3657|3663|APPEND|field|java.nio.file.StandardOpenOption|APPEND
+      @|lime/BigBrother.java|3683|3694|IOException|class|java.io.IOException
+      @|lime/BigBrother.java|3714|3729|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: observe(Ljava/lang/String;)V
+Class End  : lime.BigBrother
+endProcessing "lime/BigBrother.java"
+
