@@ -1,1 +1,4 @@
-build/tmp
+build
+run
+.gradle
+.idea

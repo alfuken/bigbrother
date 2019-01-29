@@ -20,12 +20,19 @@ import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Collections;
 
-@Mod(modid = BigBrother.MODID, name = BigBrother.NAME, version = BigBrother.VERSION)
+@Mod(
+        modid = BigBrother.MODID,
+        name = BigBrother.NAME,
+        version = BigBrother.VERSION,
+        serverSideOnly = true,
+        acceptableRemoteVersions = "*",
+        acceptedMinecraftVersions = "[1.12,1.13)"
+)
 @Mod.EventBusSubscriber
 public class BigBrother {
     public static final String MODID = "big_brother";
     public static final String NAME = "Big Brother";
-    public static final String VERSION = "1";
+    public static final String VERSION = "2";
 
     private static Path big_brothers_little_book;
 
